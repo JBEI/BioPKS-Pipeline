@@ -1,0 +1,37 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'benz'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+PKS product: O=C(O)C[C@H](O)c1ccccc1
+PKS product similarity: 0.5714285714285714
+Bio product: CC1OC(=O)c2cccc1c2
+Bio product similarity: 0.9090909090909091
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'benz'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+PKS product: O=C(O)CC(=O)c1ccccc1
+PKS product similarity: 0.5714285714285714
+Bio product: COC(=O)c1ccccc1
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #0:
+    C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O + O=C(O)c1ccccc1 = COC(=O)c1ccccc1 + Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+    O + O=C(O)CC(=O)c1ccccc1 = CC(=O)O + O=C(O)c1ccccc1
+    reaction feasibilities: ['0.919', '0.956']
+    net feasibility: 0.878
+    reaction rules: ['rule0011_38', 'rule0085_2']
+  Pathway #1:
+    CC(=O)c1ccccc1 + NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1 + O=O = COC(=O)c1ccccc1 + NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1 + O
+    O=C(O)CC(=O)c1ccccc1 = CC(=O)c1ccccc1 + O=C=O
+    reaction feasibilities: ['0.115', '0.985']
+    net feasibility: 0.113
+    reaction rules: ['rule0083_11', 'rule0024_21']
+  Pathway #2:
+    NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1 + O=C(O)CC(=O)c1ccccc1 + O=O = NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1 + O + O=C(O)COC(=O)c1ccccc1
+    O=C(O)COC(=O)c1ccccc1 = COC(=O)c1ccccc1 + O=C=O
+    reaction feasibilities: ['0.061', '0.992']
+    net feasibility: 0.060
+    reaction rules: ['rule0083_11', 'rule0024_52']

@@ -1,0 +1,30 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)C(O)C(=O)O
+PKS product similarity: 0.4444444444444444
+Bio product: O=CC(=O)O
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #0:
+    CC(=O)C(O)C(=O)O = CC=O + O=CC(=O)O
+    reaction feasibilities: ['0.987']
+    net feasibility: 0.987
+    reaction rules: ['rule0053_17']
+  Pathway #1:
+    CC(=O)C(O)C(=O)O + O=C=O = CC(=O)C(=O)O + O=CC(=O)O
+    reaction feasibilities: ['0.036']
+    net feasibility: 0.036
+    reaction rules: ['rule0274_3']
+  Pathway #2:
+    CC(=O)C(O)C(=O)O + CC(=O)C(O)C(=O)O = CC(=O)C(C)(O)C(O)C(=O)O + O=CC(=O)O
+    reaction feasibilities: ['0.005']
+    net feasibility: 0.005
+    reaction rules: ['rule0204_1']
+  Pathway #3:
+    CC(=O)C(O)C(=O)O + CC(=O)C(O)C(=O)O = CC(=O)C(O)C(O)(O)C(C)=O + O=CC(=O)O
+    reaction feasibilities: ['0.002']
+    net feasibility: 0.002
+    reaction rules: ['rule0204_1']

@@ -1,0 +1,75 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)CC(=O)O
+PKS product similarity: 0.5714285714285714
+Bio product: CC(=O)C=O
+Bio product similarity: 0.8
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)C(O)C(=O)O
+PKS product similarity: 0.5
+Bio product: CC(=O)C=O
+Bio product similarity: 0.8
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)[C@H](C)C(=O)O
+PKS product similarity: 0.5
+Bio product: CCC(C)=O
+Bio product similarity: 0.8
+
+PKS design number: 3
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'C1'}", 'loading: False']
+PKS product: CC(=O)[C@@H](O)C(=O)O
+PKS product similarity: 0.5
+Bio product: CC(=O)C=O
+Bio product similarity: 0.8
+
+PKS design number: 4
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", "KR{'type': 'C1'}", 'loading: False']
+PKS product: CC(=O)[C@@H](C)C(=O)O
+PKS product similarity: 0.5
+Bio product: CCC(C)=O
+Bio product similarity: 0.8
+
+PKS design number: 5
+PKS design:
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+PKS product: CCC(=O)CC(=O)O
+PKS product similarity: 0.5
+Bio product: CCC=O
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #0:
+    CCC(=O)CC(=O)O + CCC(=O)CC(=O)O = CCC=O + O=C(O)CCCC(=O)CC(=O)O
+    reaction feasibilities: ['0.012']
+    net feasibility: 0.012
+    reaction rules: ['rule0126_2']
+  Pathway #1:
+    CCC(=O)CC(=O)O + CCC(=O)CC(=O)O = CC(CC(=O)O)C(=O)CC(=O)O + CCC=O
+    reaction feasibilities: ['0.010']
+    net feasibility: 0.010
+    reaction rules: ['rule0126_2']
+  Pathway #2:
+    CC(C)(COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCS + CCC(=O)CC(=O)O = CC(C)(COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCSCC(=O)O + CCC=O
+    reaction feasibilities: ['0.005']
+    net feasibility: 0.005
+    reaction rules: ['rule0275_1']
+  Pathway #3:
+    CCC(=O)CC(=O)O + CCC(=O)CC(=O)O = CCC(=O)C(CC(=O)O)C(=O)O + CCC=O
+    reaction feasibilities: ['0.002']
+    net feasibility: 0.002
+    reaction rules: ['rule0126_2']
