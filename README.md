@@ -19,16 +19,7 @@ instead, which may generate PKS products that DORAnet can indeed transform into 
 still fail to reach the final product, DORAnet will run a reverse expansion on the final target molecule to generate a list of upstream precursors. 
 For each precursor in this list, Retrotide will be deployed to generate PKS designs to synthesize these precursors.
 
-In order to ensure that this dynamic pathway discovery process is as seamless as possible, there are three modalities via which you can run BioPKS Pipeline:
-
-(1) as a python script (```biopks_pipeline/biopks_pipeline.py```)
-
-(2) as a Jupyter notebook (```notebooks/WorkingDemoBiosynthPipeline.ipynb```)
-
-(3) or most simply, with our graphical user interface (GUI)
-
-If you choose to use notebooks, we have provided a couple of tutorials under ```notebooks/tutorials/```, which may be useful
-(but not critical!). If you prefer using the GUI, read onto the next section!
+To begin using BioPKS pipeline, we have provided a couple of tutorials under ```notebooks/tutorials/```, which may be useful to follow.
 
 ![biopks_pipeline_architecture](biopks_pipeline_fig.png)
 
