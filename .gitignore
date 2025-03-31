@@ -49,3 +49,5 @@ node_modules
 /data/DORAnet_network_files/*
 *.pgnet
 *.pdf
+*.egg-info/
+
