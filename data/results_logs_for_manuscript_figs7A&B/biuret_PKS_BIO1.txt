@@ -1,0 +1,54 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'guan'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: NC(=[NH2+])NCCCC(=O)O
+PKS product similarity: 0.3076923076923077
+Bio product: CNC(N)=[NH2+]
+Bio product similarity: 0.5
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'guan'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+PKS product: NC(=[NH2+])NCC=CC(=O)O
+PKS product similarity: 0.3076923076923077
+Bio product: CNC(N)=[NH2+]
+Bio product similarity: 0.5
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'guan'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'loading: False']
+PKS product: NC(=[NH2+])NCC=C(O)C(=O)O
+PKS product similarity: 0.2857142857142857
+Bio product: CNC(N)=[NH2+]
+Bio product similarity: 0.5
+
+PKS design number: 3
+PKS design:
+    ["AT{'substrate': 'guan'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+PKS product: NC(=[NH2+])NCC(=O)CC(=O)O
+PKS product similarity: 0.2857142857142857
+Bio product: CNC(N)=[NH2+]
+Bio product similarity: 0.5
+
+PKS design number: 4
+PKS design:
+    ["AT{'substrate': 'guan'}", 'loading: True']
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: C[C@@H](CCNC(N)=[NH2+])C(=O)O
+PKS product similarity: 0.2857142857142857
+Bio product: CNC(N)=[NH2+]
+Bio product similarity: 0.5
+
+PKS design number: 5
+PKS design:
+    ["AT{'substrate': 'guan'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: NC(=[NH2+])NCC[C@H](O)C(=O)O
+PKS product similarity: 0.2857142857142857
+Bio product: CNC(N)=[NH2+]
+Bio product similarity: 0.5

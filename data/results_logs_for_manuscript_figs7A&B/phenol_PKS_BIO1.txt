@@ -1,0 +1,33 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'ABHA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: Nc1cc(O)cc(CCC(=O)O)c1
+PKS product similarity: 0.5384615384615384
+Bio product: Nc1cc(O)cc(O)c1
+Bio product similarity: 0.7777777777777778
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'ABHA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+PKS product: Nc1cc(O)cc(C=CC(=O)O)c1
+PKS product similarity: 0.5384615384615384
+Bio product: Nc1cc(O)cc(O)c1
+Bio product similarity: 0.7777777777777778
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'benz'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: O=C(O)CCc1ccccc1
+PKS product similarity: 0.5
+Bio product: Oc1ccccc1
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #0:
+    O + O=C(O)CCc1ccccc1 = CCC(=O)O + Oc1ccccc1
+    reaction feasibilities: ['0.533']
+    net feasibility: 0.533
+    reaction rules: ['rule0085_1']

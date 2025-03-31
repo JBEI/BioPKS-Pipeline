@@ -1,0 +1,67 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+PKS product: CC=CC(=O)O
+PKS product similarity: 0.5714285714285714
+Bio product: CC=CC(N)=O
+Bio product similarity: 0.8333333333333334
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'loading: False']
+PKS product: CC=C(C)C(=O)O
+PKS product similarity: 0.5
+Bio product: CC=C(C)C(=O)O
+Bio product similarity: 0.5
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)CC(=O)O
+PKS product similarity: 0.3333333333333333
+Bio product: CC(N)=O
+Bio product similarity: 0.8
+
+PKS design number: 3
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'loading: False']
+PKS product: CC=C(O)C(=O)O
+PKS product similarity: 0.5
+Bio product: CC=CC(N)=O
+Bio product similarity: 0.8333333333333334
+
+PKS design number: 4
+PKS design:
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+PKS product: CCC=CC(=O)O
+PKS product similarity: 0.5
+Bio product: C=CC
+Bio product similarity: 0.6
+
+PKS design number: 5
+PKS design:
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+PKS product: O=C(O)C=CCO
+PKS product similarity: 0.5
+Bio product: C=CC(N)=O
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #0:
+    C=CC(=O)O + N = C=CC(N)=O + O
+    O=C(O)C=CCO = C=CC(=O)O + C=O
+    reaction feasibilities: ['0.914', '0.880']
+    net feasibility: 0.804
+    reaction rules: ['rule0055_2', 'rule0053_20']
+  Pathway #1:
+    N + O=C(O)C=CCO = NC(=O)C=CCO + O
+    NC(=O)C=CCO = C=CC(N)=O + C=O
+    reaction feasibilities: ['0.177', '0.960']
+    net feasibility: 0.170
+    reaction rules: ['rule0055_2', 'rule0053_20']

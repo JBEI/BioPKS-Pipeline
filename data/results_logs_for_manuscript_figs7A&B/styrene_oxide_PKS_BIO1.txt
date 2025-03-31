@@ -1,0 +1,54 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'benz'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+PKS product: O=C(O)C[C@H](O)c1ccccc1
+PKS product similarity: 0.75
+Bio product: CC(O)c1ccccc1
+Bio product similarity: 1.0
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'benz'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: O=C(O)[C@@H](O)Cc1ccccc1
+PKS product similarity: 0.75
+Bio product: OCCc1ccccc1
+Bio product similarity: 1.0
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'PABA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+PKS product: Nc1ccc([C@@H](O)CC(=O)O)cc1
+PKS product similarity: 0.6923076923076923
+Bio product: CC(O)c1ccc(N)cc1
+Bio product similarity: 0.9
+
+PKS design number: 3
+PKS design:
+    ["AT{'substrate': 'PABA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: Nc1ccc(C[C@H](O)C(=O)O)cc1
+PKS product similarity: 0.6923076923076923
+Bio product: Nc1ccc(CCO)cc1
+Bio product similarity: 0.9
+
+PKS design number: 4
+PKS design:
+    ["AT{'substrate': 'plac'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+PKS product: O=C(O)C[C@H](O)Cc1ccccc1
+PKS product similarity: 0.6923076923076923
+Bio product: OCCc1ccccc1
+Bio product similarity: 1.0
+
+PKS design number: 5
+PKS design:
+    ["AT{'substrate': 'benz'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", 'loading: False']
+PKS product: O=C(O)C(O)C(=O)c1ccccc1
+PKS product similarity: 0.6923076923076923
+Bio product: O=C(CO)c1ccccc1
+Bio product similarity: 0.9

@@ -1,0 +1,54 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'plac'}", 'loading: True']
+    ["AT{'substrate': 'Hexylmalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: CCCCCC[C@@H](CCc1ccccc1)C(=O)O
+PKS product similarity: 0.48484848484848486
+Bio product: CCCCCCCCCCCCC(CCc1ccccc1)C(=O)O
+Bio product similarity: 0.6666666666666666
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'DHCH'}", 'loading: True']
+    ["AT{'substrate': 'Hexylmalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: CCCCCC[C@@H](CC1CC[C@@H](O)[C@H](O)C1)C(=O)O
+PKS product similarity: 0.47058823529411764
+Bio product: CCCCCC(CC)CCCC(CC1CCC(O)C(O)C1)C(=O)O
+Bio product similarity: 0.5714285714285714
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'DHCHene'}", 'loading: True']
+    ["AT{'substrate': 'Hexylmalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: CCCCCC[C@@H](CC1=CC[C@@H](O)[C@H](O)C1)C(=O)O
+PKS product similarity: 0.47058823529411764
+Bio product: CCCCCC(CC)CCCC(CC1=CCC(O)C(O)C1)C(=O)O
+Bio product similarity: 0.5714285714285714
+
+PKS design number: 3
+PKS design:
+    ["AT{'substrate': 'plac'}", 'loading: True']
+    ["AT{'substrate': 'Hexylmalonyl-CoA'}", "KR{'type': 'C1'}", 'loading: False']
+PKS product: CCCCCC[C@@H](C(=O)O)C(=O)Cc1ccccc1
+PKS product similarity: 0.47058823529411764
+Bio product: CCCCCCCCCCCCC(C(=O)O)C(=O)Cc1ccccc1
+Bio product similarity: 0.6470588235294118
+
+PKS design number: 4
+PKS design:
+    ["AT{'substrate': 'plac'}", 'loading: True']
+    ["AT{'substrate': 'Hexylmalonyl-CoA'}", "KR{'type': 'B1'}", 'loading: False']
+PKS product: CCCCCC[C@@H](C(=O)O)[C@H](O)Cc1ccccc1
+PKS product similarity: 0.47058823529411764
+Bio product: CCCCCCCCCCCCC(C(=O)O)C(O)Cc1ccccc1
+Bio product similarity: 0.6470588235294118
+
+PKS design number: 5
+PKS design:
+    ["AT{'substrate': 'plac'}", 'loading: True']
+    ["AT{'substrate': 'Hexylmalonyl-CoA'}", 'loading: False']
+PKS product: CCCCCC[C@H](C(=O)O)C(=O)Cc1ccccc1
+PKS product similarity: 0.47058823529411764
+Bio product: CCCCCCCCCCCCC(C(=O)O)C(=O)Cc1ccccc1
+Bio product similarity: 0.6470588235294118
