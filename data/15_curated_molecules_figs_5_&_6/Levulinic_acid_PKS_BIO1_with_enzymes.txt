@@ -1,0 +1,16 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'B1'}", 'DH{}', 'ER{}', 'loading: False']
+PKS product: CC(=O)CC[C@H](O)C(=O)O
+PKS product similarity: 0.6363636363636364
+Bio product: CC(=O)CCC(=O)O
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #1:
+    CC(=O)CCC(O)C(=O)O + O=O = CC(=O)CCC(=O)O + O + O=C=O
+    reaction feasibilities: ['0.930']
+    net feasibility: 0.930
+    {'rule0352_2 enzyme UNIPROT IDs': 'A8NBN1;E3KNM7;P06617;P0A3V2;P0A3V3;P21795;P25017;Q04564;Q09109;Q44520;Q47861;Q52367;Q5W9R9;Q9HDX2;Q9R717'}

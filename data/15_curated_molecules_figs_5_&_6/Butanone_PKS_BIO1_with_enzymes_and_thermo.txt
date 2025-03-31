@@ -1,0 +1,62 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)CC(=O)O
+PKS product similarity: 0.7142857142857143
+Bio product: O=C1CC(=O)C1
+Bio product similarity: 0.8333333333333334
+
+PKS design number: 1
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", 'loading: False']
+PKS product: CC(=O)C(O)C(=O)O
+PKS product similarity: 0.625
+Bio product: CC(=O)C(=O)C=O
+Bio product similarity: 0.7142857142857143
+
+PKS design number: 2
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Hydroxymalonyl-CoA'}", "KR{'type': 'C1'}", 'loading: False']
+PKS product: CC(=O)[C@@H](O)C(=O)O
+PKS product similarity: 0.625
+Bio product: CC(=O)C(=O)C=O
+Bio product similarity: 0.7142857142857143
+
+PKS design number: 3
+PKS design:
+    ["AT{'substrate': 'Malonyl-CoA'}", 'loading: True']
+    ["AT{'substrate': 'Methylmalonyl-CoA'}", "KR{'type': 'C1'}", 'loading: False']
+PKS product: CC(=O)[C@@H](C)C(=O)O
+PKS product similarity: 0.625
+Bio product: CCC(C)=O
+Bio product similarity: 1.0
+Bio pathways:
+  Pathway #4:
+    CC(=O)C(C)C(=O)O = CCC(C)=O + O=C=O, Rxn MDF: 57.36 kJ/mol, std dG value: -17.42 kJ/mol, rxn std dG error: 3.09 kJ/mol, rxn phys dG value: -34.54 kJ/mol, rxn phys dG error: 3.09 kJ/mol
+    reaction feasibilities: ['0.969']
+    net feasibility: 0.969
+    {'rule0053_19 enzyme UNIPROT IDs': 'A3PGR7;A4WVF5;B6E2X2;B9KLE8;C5B113;D5AR83;E4WCW9;Q3J5L6;S5N020'}
+  Pathway #5:
+    CC(=O)C(C)C(=O)O + O = CCC(C)=O + O=C(O)O, Rxn MDF: 59.13 kJ/mol, std dG value: -24.90 kJ/mol, rxn std dG error: 1.39 kJ/mol, rxn phys dG value: -42.01 kJ/mol, rxn phys dG error: 1.39 kJ/mol
+    reaction feasibilities: ['0.252']
+    net feasibility: 0.252
+    {'rule0085_2 enzyme UNIPROT IDs': 'A0M4Y1;A0REX2;A1C688;A1CHT0;A1CWY1;A1DGW4;A1V194;A2QJI5;A2QP68;A2R7T0;A2S925;A3MHE2;A3N6H3;A3NS56;A4IT57;A4UBV5;A4XAL2;A5DM91;A5DTF4;A5FMM4;A5PKH3;A6H1P7;A6RSP5;A7ESB3;A7ESB8;A7GPY3;A7SCH8;A7TR79;A8XKT0;A9V3C0;A9VHP9;B0RUZ9;B0XS72;B0Y6H2;B1KJM4;B1YHD6;B2FL97;B2SIT8;B7XB98;D5LIR7;D6R233;M5AIH9;O86042;P0CO52;P0CO53;P16930;P25093;P35505;P70712;P83788;Q05979;Q0CPB0;Q0CZX6;Q0UIN2;Q0UZK0;Q16719;Q18026;Q1DDU5;Q1DZA6;Q1ITW5;Q1ZXQ1;Q2H7G2;Q2H9P7;Q2L886;Q2P317;Q2U038;Q2UJE8;Q3BV40;Q3JVD7;Q4UT93;Q4WPN0;Q4X1D4;Q54Q04;Q588Z2;Q59QC4;Q5B0H8;Q5BC73;Q5DGJ1;Q5H039;Q5WKB5;Q62M98;Q63AJ0;Q63WP4;Q6BI19;Q6CDM0;Q6HHX7;Q6PNM8;Q736W3;Q750P5;Q7RXY2;Q7S332;Q7Z986;Q81CK0;Q81PP8;Q8PAD2;Q8PM33;Q9CXF0;Q9KWQ6;Q9RYH5'}
+  Pathway #1:
+    CC(=O)C(C)C(=O)O + CC(=O)C(C)C(=O)O = CC(=O)C(CC(=O)O)C(=O)O + CCC(C)=O, Rxn MDF: 38.19 kJ/mol, std dG value: -3.96 kJ/mol, rxn std dG error: 0.94 kJ/mol, rxn phys dG value: -3.96 kJ/mol, rxn phys dG error: 0.94 kJ/mol
+    reaction feasibilities: ['0.184']
+    net feasibility: 0.184
+    {'rule0126_1 enzyme UNIPROT IDs': 'C6EUD4;G2JZ74;O07597;P02904;P19938;P39976;P54692;P54693;P54694;P63511;P99090;Q58786;Q5HF24;Q5HNG0;Q6G8H7;Q6GFV1;Q70AC7;Q71Z49;Q8CS41;Q8GBW6;Q8NW24;Q92B90;Q9KJF0'}
+  Pathway #3:
+    CC(=O)C(C)C(=O)O + CC(=O)C(C)C(=O)O = CC(=O)C(C)(C(=O)O)C(=O)O + CCC(C)=O, Rxn MDF: 35.27 kJ/mol, std dG value: -1.04 kJ/mol, rxn std dG error: 4.04 kJ/mol, rxn phys dG value: -1.04 kJ/mol, rxn phys dG error: 4.04 kJ/mol
+    reaction feasibilities: ['0.077']
+    net feasibility: 0.077
+    {'rule0126_2 enzyme UNIPROT IDs': 'A1ADQ1;A4YXN2;A5EGD7;A6QP15;A7ZPI2;A8A2M8;A8WTJ7;B1H3H9;B1IX88;B1LMH0;B1X9P6;B2GV22;B2TWX3;B3QBS6;B5YYX4;B6I6S5;B6JE29;B7LBS7;B7M6P3;B7MH34;B7MY33;B7N5X4;B7NPQ8;B7UG84;C4ZVR1;C6EUD4;E1BYA3;E7EY42;O06644;O08888;O87838;P02904;P06834;P13254;P48651;P69902;P69903;Q00576;Q07Q82;Q08B39;Q08D11;Q0TF87;Q139H7;Q17EN4;Q1R8Z2;Q217M3;Q28XT3;Q2IUI7;Q2KHY9;Q31Y97;Q32DG9;Q3YZF6;Q4QQW3;Q54GJ7;Q5PQL5;Q5ZM65;Q6N8F8;Q6P371;Q70AC7;Q7Q547;Q803C9;Q82M40;Q89QH2;Q8FFE8;Q8GBW6;Q8IWW8;Q8R0N6;Q8XBR7;Q99LH2;Q9U2M4;Q9W265;Q9Z1X2'}
+  Pathway #2:
+    CC(=O)C(C)C(=O)O + CC(=O)C(C)C(=O)O = CCC(C)=O + CC(C(=O)O)C(=O)CC(=O)O, Rxn MDF: 38.18 kJ/mol, std dG value: -3.95 kJ/mol, rxn std dG error: 0.94 kJ/mol, rxn phys dG value: -3.95 kJ/mol, rxn phys dG error: 0.94 kJ/mol
+    reaction feasibilities: ['0.059']
+    net feasibility: 0.059
+    {'rule0126_2 enzyme UNIPROT IDs': 'A1ADQ1;A4YXN2;A5EGD7;A6QP15;A7ZPI2;A8A2M8;A8WTJ7;B1H3H9;B1IX88;B1LMH0;B1X9P6;B2GV22;B2TWX3;B3QBS6;B5YYX4;B6I6S5;B6JE29;B7LBS7;B7M6P3;B7MH34;B7MY33;B7N5X4;B7NPQ8;B7UG84;C4ZVR1;C6EUD4;E1BYA3;E7EY42;O06644;O08888;O87838;P02904;P06834;P13254;P48651;P69902;P69903;Q00576;Q07Q82;Q08B39;Q08D11;Q0TF87;Q139H7;Q17EN4;Q1R8Z2;Q217M3;Q28XT3;Q2IUI7;Q2KHY9;Q31Y97;Q32DG9;Q3YZF6;Q4QQW3;Q54GJ7;Q5PQL5;Q5ZM65;Q6N8F8;Q6P371;Q70AC7;Q7Q547;Q803C9;Q82M40;Q89QH2;Q8FFE8;Q8GBW6;Q8IWW8;Q8R0N6;Q8XBR7;Q99LH2;Q9U2M4;Q9W265;Q9Z1X2'}

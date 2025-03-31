@@ -1,0 +1,12 @@
+
+PKS design number: 0
+PKS design:
+    ["AT{'substrate': 'cin'}", 'loading: True']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'loading: False']
+    ["AT{'substrate': 'Malonyl-CoA'}", "KR{'type': 'B'}", 'DH{}', 'loading: False']
+PKS product: O=C1C=CC[C@@H](C=CC[C@H](O)C[C@H](O)C=Cc2ccccc2)O1
+PKS product similarity: 1.0
+----------------
