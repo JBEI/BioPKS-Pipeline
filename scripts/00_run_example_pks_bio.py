@@ -17,8 +17,8 @@ config_filepath = 'input_config_file.json'
 post_pks_rxn_model = DORA_XGB.feasibility_classifier(cofactor_positioning = 'add_concat',
                                                      model_type = "spare")
 
-### Create an object that is an instance of Biosynth Pipeline
-biosynth_pipeline_object = biopks_pipeline.biosynth_pipeline(
+### Create an object that is an instance of BioPKS Pipeline
+biopks_pipeline_object = biopks_pipeline.biopks_pipeline(
                                              pathway_sequence = pathway_sequence,
                                              target_smiles = target_smiles,
                                              target_name = target_name,
@@ -28,5 +28,5 @@ biosynth_pipeline_object = biopks_pipeline.biosynth_pipeline(
 
 ### ----- Start synthesis -----
 if __name__ == "__main__":
-    biosynth_pipeline_object.run_combined_synthesis(max_designs = 4)
-    biosynth_pipeline_object.save_results_logs()
+    biopks_pipeline_object.run_combined_synthesis(max_designs = 4)
+    biopks_pipeline_object.save_results_logs()
