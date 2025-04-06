@@ -1,8 +1,8 @@
 {
   "pks_starters_filepath": "../biopks_pipeline/retrotide/data/starters.smi",
   "pks_extenders_filepath": "../biopks_pipeline/retrotide/data/extenders.smi",
-  "pks_starters": "all",
-  "pks_extenders": "all",
+  "pks_starters": ["mal", "mmal", "mxmal", "hmal", "allylmal"],
+  "pks_extenders": ["mal", "mmal", "mxmal", "hmal", "allylmal"],
   "pks_similarity_metric": "mcs_without_stereo",
   "non_pks_similarity_metric": "mcs_without_stereo",
   "non_pks_steps": "1",
