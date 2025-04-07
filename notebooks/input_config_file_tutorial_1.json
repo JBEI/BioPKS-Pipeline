@@ -9,5 +9,5 @@
   "non_pks_cores": "1",
   "bio_max_atoms":"None",
   "stopping_criteria": "first_product_formation",
-  "results_dir": "../data/results_logs"
+  "results_dir": "../notebooks/"
 }
