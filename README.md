@@ -23,3 +23,22 @@ To begin using BioPKS pipeline, we have provided a couple of tutorials under ```
 
 ![biopks_pipeline_architecture](biopks_pipeline_fig.png)
 
+### Installation instructions:
+
+#### 1. With `pip`:
+
+Users can install BioPKS Pipeline by first creating a Python 3.10 conda environment and then using `pip` to directly install the package:
+
+```
+conda create -n BioPKS_py310_env python=3.10
+pip install -e.
+```
+
+#### 2. With docker:
+We have also created a dockerfile for users to run BioPKS Pipeline within a containerized environment. To begin, run the following command in the same directory as the dockerfile:
+
+`docker build -t biopks_pipeline .`
+
+After building the docker image locally, spin up a container with an interactive bash shell:
+
+`docker run -ti biopks_pipeline /bin/bash`
