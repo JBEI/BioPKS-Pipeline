@@ -42,3 +42,7 @@ We have also created a dockerfile for users to run BioPKS Pipeline within a cont
 After building the docker image locally, spin up a container with an interactive bash shell:
 
 `docker run -ti biopks_pipeline /bin/bash`
+
+In this interactive bash shell, within the `scripts` folder, run the example script:
+
+`python run 00_run_example_pks_bio.py`
