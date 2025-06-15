@@ -9,7 +9,7 @@ polyketide synthase (PKS) retrobiosynthesis, and **DORAnet**, tailored for singu
 With BioPKS Pipeline, users will first specify the target molecule for which they wish to discover biosynthetic pathways.
 Subsequently, users will have the option of either performing PKS retrobiosynthesis first and then a DORAnet expansion or 
 vice versa - though the former sequence is a more common occurrence in metabolic engineering given that there are only a 
-couple of starter molecules that PKSs can accept (such as Malonyl-CoA). 
+couple of acyl-CoA starter molecules that PKSs can accept (e.g. malonyl-CoA, methylmalonyl-CoA, etc.). 
 
 When a target molecule cannot be reached by RetroTide, i.e. by PKSs alone, DORAnet will accept the PKS product that is 
 closest to the downstream target as an input and perform a network expansion to reach the target. This network expansion involves 
