@@ -1,6 +1,6 @@
 # BioPKS Pipeline
 
-https://www.biorxiv.org/content/10.1101/2024.11.04.621673v2
+Paper: https://www.nature.com/articles/s41467-025-61160-y
 
 **BioPKS Pipeline** is a combined retrobiosynthesis pipeline intended to expand the design space of feasible
 biosynthetic pathways between simple, inexpensively available precursors and high-value small molecules. 
