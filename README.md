@@ -1,6 +1,8 @@
 # BioPKS Pipeline
 
-Paper: https://www.nature.com/articles/s41467-025-61160-y
+**Paper:** https://www.nature.com/articles/s41467-025-61160-y
+
+**Authors:** Yash Chainani, Jacob Diaz, Margaret Guilarte-Silva, Vincent Blay, Quan Zhang, William Sprague, Keith E. J. Tyo, Linda J. Broadbelt, Aindrila Mukhopadhyay, Jay D. Keasling, Hector Garcia Martin & Tyler W. H. Backman 
 
 **BioPKS Pipeline** is a combined retrobiosynthesis pipeline intended to expand the design space of feasible
 biosynthetic pathways between simple, inexpensively available precursors and high-value small molecules. 
