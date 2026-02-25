@@ -4,7 +4,7 @@
 
 **Authors:** Yash Chainani, Jacob Diaz, Margaret Guilarte-Silva, Vincent Blay, Quan Zhang, William Sprague, Keith E. J. Tyo, Linda J. Broadbelt, Aindrila Mukhopadhyay, Jay D. Keasling, Hector Garcia Martin & Tyler W. H. Backman 
 
-**Copyright Notice:** Biosynth Pipeline Copyright (c) 2024, The Regents of the University of California,
+**Copyright Notice:** BioPKS Pipeline Copyright (c) 2024, The Regents of the University of California,
 through Lawrence Berkeley National Laboratory (subject to receipt of any
 required approvals from the U.S. Dept. of Energy) and Northwestern
 University. All rights reserved.
